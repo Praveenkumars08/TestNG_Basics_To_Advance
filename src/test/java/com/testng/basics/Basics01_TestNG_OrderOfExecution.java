@@ -26,6 +26,7 @@ public class Basics01_TestNG_OrderOfExecution {
 	 * IMPORTANT NOTE : Here BeforeMethod and AfterMethod will behave differently, BeforeMethod will execute before each and every tests and 
 	 * AfterMethod will execute after each and every tests.
 	 */
+	
 	@BeforeSuite
 	public void bSuite() {
 		System.out.println("Hey, I will be executed first");
