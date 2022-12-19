@@ -10,7 +10,7 @@ public class Basics03_TestNG_PriorityConcept {
 	 * NOTE : We can also set priority to our test cases, it will accept integer values.
 	 * If we set the integer value to negative then it will be executed first.
 	 * If both the tests having same priority then it will pick based on the alphabetical order.
-	 * If we don't set any priority then the non priority test cases will be executed.
+	 * If we don't set any priority then the non priority test cases will be executed first.
 	 */
 	
 	@BeforeTest
