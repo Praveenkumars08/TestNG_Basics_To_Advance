@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!-- NOTE : Instead of executing our tests via different classes, We can bundle it up 
+with the runner file and execute it. We can bundle up n number of classes. -->
+
+<suite name="TestNG Regression Suite">
+
+	<test name="Test01">
+		<classes>
+			<class name="com.testng.basics.Basics01_TestNG_OrderOfExecution" />
+		</classes>
+	</test>
+
+	<test name="Test02">
+		<classes>
+			<class name="com.testng.basics.Basics02_TestNGTests_OrderOfExecution" />
+		</classes>
+	</test>
+
+	<test name="Test03">
+		<classes>
+			<class name="com.testng.basics.Basics03_TestNG_PriorityConcept" />
+		</classes>
+	</test>
+
+</suite>
