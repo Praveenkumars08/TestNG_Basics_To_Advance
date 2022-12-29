@@ -4,6 +4,8 @@
 <!-- NOTE : Instead of executing our tests via different classes, We can bundle it up 
 with the runner file and execute it. We can bundle up n number of classes. -->
 
+<!-- We can directly execute this xml file right click on this xml file and run as TestNG Suite -->
+
 <suite name="TestNG Regression Suite">
 
 	<test name="Test01">
